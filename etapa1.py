@@ -1,39 +1,24 @@
 # importacion de librerías
-import os
-import numpy as np
-import pandas as pd
-import psycopg2
-from configparser import ConfigParser
+from funciones import *
 
-
-csv_files = []
-""" encontrar los archivos csv dentro de la carpeta y preparar la data """
-for file in os.listdir(os.getcwd()):  # esto es una lista de archivos
-    if file.endswith('.csv'):
-        csv_files.append(file)
-
-# realizar un nuevo directorio
+# main
+# variables de configuracion
 dataset_dir = 'datasets'
-try: 
-    mkdir = 'mkdir {0}'.format(dataset_dir)
-    os.system(mkdir)
-    print(mkdir)
-except:
-    pass
+# credenciales de la base de datos
+host, dbname, user, password = credenciales()
+# configuracion del ambiente y creacion del dataframe
+csv_files = csv_files()
+if len(csv_files) == 0:  # ya existe la carpeta
+    data_path = os.getcwd() + '/' + dataset_dir
+    csv_files = recuperar_csv_files(data_path)
 
-# mover los cvs files a un nuevo directorio
-for csv in csv_files:
-    mv_file = 'move {0} {1}'.format(csv, dataset_dir)  # para windows es move para ios es mv
-    os.system(mv_file)
-    print(mv_file)
+configure_dataset_directory(csv_files, dataset_dir)
+df = create_df(dataset_dir, csv_files)
 
-"""creacion de pandas df de un archivo csv"""
-data_path = os.getcwd()+'/'+dataset_dir+'/'
-df = {}
-for file in csv_files:
-    try:
-        df[file] = pd.read_csv(data_path+file)
-    except UnicodeDecodeError:
-        df[file] = pd.read_csv(data_path+file, encoding = "ISO-8859-1")
-    print(file)
-
+for k in csv_files:
+    dataframe = df[k]  # llamar al dataframe
+    tbl_name = clean_tbl_name(k)  # limpiar el nombre del archivo sera el nombre de la tabla
+    col_str, dataframe.columns = clean_colname(dataframe)  # limpiar el nombre de las columnas, sera el atributo
+    # ingresar los datos a la base de datos
+    upload_to_db(host, dbname, user, password, tbl_name, col_str, k, dataframe, dataframe.columns)
+print('Todas las tablas de datos han sido importadas correctamente')
