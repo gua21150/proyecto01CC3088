@@ -40,8 +40,11 @@ def configure_dataset_directory(csv_name_files, dataset_dir, op_sys):
 
 
 # creacion de pandas df de un archivo csv"""
-def create_df(dataset_directory, files):
-    data_path = os.getcwd() + '/' + dataset_directory + '/'  # obtiene el path actual y lo que esta en el dataset
+def create_df(dataset_directory, files, op_sys):
+    if op_sys == 1:
+        data_path = os.getcwd() + '\\' + dataset_directory + '\\'  # obtiene el path actual y lo que esta en el dataset
+    elif op_sys == 2:
+        data_path = os.getcwd() + '/' + dataset_directory + '/'  # obtiene el path actual y lo que esta en el dataset
     df = {}  # diccionario
     for file in files:
         try:

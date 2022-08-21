@@ -18,7 +18,7 @@ if len(csv_files) == 0:  # ya existe la carpeta
     csv_files = recuperar_csv_files(data_path)
 else:
     configure_dataset_directory(csv_files, dataset_dir, system_op)
-df = create_df(dataset_dir, csv_files)
+df = create_df(dataset_dir, csv_files, system_op)
 
 for k in csv_files:
     dataframe = df[k]  # llamar al dataframe
