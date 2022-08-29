@@ -1,31 +1,31 @@
-ID,ABBREVIATION,NICKNAME,YEARFOUNDED,CITY,ARENA,ARENACAPACITY,OWNER,GENERALMANAGER,HEADCOACH,DLEAGUEAFFILIATION
-1610612737,ATL,Hawks,1949,Atlanta,State Farm Arena,18729,Tony Ressler,Travis Schlenk,Nate McMillan,Erie Bayhawks
-1610612738,BOS,Celtics,1946,Boston,TD Garden,18624,Wyc Grousbeck,Danny Ainge,Brad Stevens,Maine Red Claws
-1610612739,CLE,Cavaliers,1970,Cleveland,Rocket Mortgage FieldHouse,20562,Dan Gilbert,Koby Altman,JB Bickerstaff,Canton Charge
-1610612740,NOP,Pelicans,2002,New Orleans,Smoothie King Center,,Tom Benson,Trajan Langdon,Stan Van Gundy,No Affiliate
-1610612741,CHI,Bulls,1966,Chicago,United Center,21711,Jerry Reinsdorf,Arturas Karnisovas,Billy Donovan,Windy City Bulls
-1610612742,DAL,Mavericks,1980,Dallas,American Airlines Center,19200,Mark Cuban,Donnie Nelson,Rick Carlisle,Texas Legends
-1610612743,DEN,Nuggets,1976,Denver,Ball Arena,,Stan Kroenke,Tim Connelly,Michael Malone,No Affiliate
-1610612744,GSW,Warriors,1946,Golden State,Chase Center,,Joe Lacob,Bob Myers,Steve Kerr,Santa Cruz Warriors
-1610612745,HOU,Rockets,1967,Houston,Toyota Center,18104,Tilman Fertitta,Rafael Stone,Stephen Silas,Rio Grande Valley Vipers
-1610612746,LAC,Clippers,1970,Los Angeles,STAPLES Center,19060,Steve Ballmer,Michael Winger,Tyronn Lue,Agua Caliente Clippers of Ontario
-1610612747,LAL,Lakers,1948,Los Angeles,STAPLES Center,19060,Jerry Buss Family Trust,Rob Pelinka,Frank Vogel,South Bay Lakers
-1610612748,MIA,Heat,1988,Miami,AmericanAirlines Arena,19600,Micky Arison,Pat Riley,Erik Spoelstra,Sioux Falls Skyforce
-1610612749,MIL,Bucks,1968,Milwaukee,Fiserv Forum,17500,Wesley Edens & Marc Lasry,Jon Horst,Mike Budenholzer,Wisconsin Herd
-1610612750,MIN,Timberwolves,1989,Minnesota,Target Center,19356,Glen Taylor,Scott Layden,Chris Finch,Iowa Wolves
-1610612751,BKN,Nets,1976,Brooklyn,Barclays Center,,Joe Tsai,Sean Marks,Steve Nash,Long Island Nets
-1610612752,NYK,Knicks,1946,New York,Madison Square Garden,19763,Cablevision (James Dolan),Leon Rose,Tom Thibodeau,Westchester Knicks
-1610612753,ORL,Magic,1989,Orlando,Amway Center,0,Rick DeVos,John Hammond,Steve Clifford,Lakeland Magic
-1610612754,IND,Pacers,1976,Indiana,Bankers Life Fieldhouse,18345,Herb Simon,Kevin Pritchard,Nate Bjorkgren,Fort Wayne Mad Ants
-1610612755,PHI,76ers,1949,Philadelphia,Wells Fargo Center,,Joshua Harris,Elton Brand,Doc Rivers,Delaware Blue Coats
-1610612756,PHX,Suns,1968,Phoenix,Phoenix Suns Arena,,Robert Sarver,James Jones,Monty Williams,Northern Arizona Suns
-1610612757,POR,Trail Blazers,1970,Portland,Moda Center,19980,Paul Allen,Neil Olshey,Terry Stotts,No Affiliate
-1610612758,SAC,Kings,1948,Sacramento,Golden 1 Center,17500,Vivek Ranadive,Monte McNair,Luke Walton,Stockton Kings
-1610612759,SAS,Spurs,1976,San Antonio,AT&T Center,18694,Peter Holt,Brian Wright,Gregg Popovich,Austin Spurs
-1610612760,OKC,Thunder,1967,Oklahoma City,Chesapeake Energy Arena,,Clay Bennett,Sam Presti,Mark Daigneault,Oklahoma City Blue
-1610612761,TOR,Raptors,1995,Toronto,Amalie Arena,,Maple Leaf Sports and Entertainment,Masai Ujiri,Nick Nurse,Raptors 905
-1610612762,UTA,Jazz,1974,Utah,Vivint Arena,,Ryan Smith,Dennis Lindsey,Quin Snyder,Salt Lake City Stars
-1610612763,MEM,Grizzlies,1995,Memphis,FedExForum,18119,Robert Pera,Zach Kleiman,Taylor Jenkins,Memphis Hustle
-1610612764,WAS,Wizards,1961,Washington,Capital One Arena,20647,Ted Leonsis,Tommy Sheppard,Scott Brooks,Capital City Go-Go
-1610612765,DET,Pistons,1948,Detroit,Little Caesars Arena,,Tom Gores,Ed Stefanski,Dwane Casey,Grand Rapids Drive
-1610612766,CHA,Hornets,1988,Charlotte,Spectrum Center,19026,Michael Jordan,Mitch Kupchak,James Borrego,Greensboro Swarm
+id,nickname,arena,arenacapacity,owner,generalmanager,headcoach,dleagueaffiliation
+1610612737,Hawks,State Farm Arena,18729.0,Tony Ressler,Travis Schlenk,Nate McMillan,Erie Bayhawks
+1610612738,Celtics,TD Garden,18624.0,Wyc Grousbeck,Danny Ainge,Brad Stevens,Maine Red Claws
+1610612739,Cavaliers,Rocket Mortgage FieldHouse,20562.0,Dan Gilbert,Koby Altman,JB Bickerstaff,Canton Charge
+1610612740,Pelicans,Smoothie King Center,,Tom Benson,Trajan Langdon,Stan Van Gundy,No Affiliate
+1610612741,Bulls,United Center,21711.0,Jerry Reinsdorf,Arturas Karnisovas,Billy Donovan,Windy City Bulls
+1610612742,Mavericks,American Airlines Center,19200.0,Mark Cuban,Donnie Nelson,Rick Carlisle,Texas Legends
+1610612743,Nuggets,Ball Arena,,Stan Kroenke,Tim Connelly,Michael Malone,No Affiliate
+1610612744,Warriors,Chase Center,,Joe Lacob,Bob Myers,Steve Kerr,Santa Cruz Warriors
+1610612745,Rockets,Toyota Center,18104.0,Tilman Fertitta,Rafael Stone,Stephen Silas,Rio Grande Valley Vipers
+1610612746,Clippers,STAPLES Center,19060.0,Steve Ballmer,Michael Winger,Tyronn Lue,Agua Caliente Clippers of Ontario
+1610612747,Lakers,STAPLES Center,19060.0,Jerry Buss Family Trust,Rob Pelinka,Frank Vogel,South Bay Lakers
+1610612748,Heat,AmericanAirlines Arena,19600.0,Micky Arison,Pat Riley,Erik Spoelstra,Sioux Falls Skyforce
+1610612749,Bucks,Fiserv Forum,17500.0,Wesley Edens & Marc Lasry,Jon Horst,Mike Budenholzer,Wisconsin Herd
+1610612750,Timberwolves,Target Center,19356.0,Glen Taylor,Scott Layden,Chris Finch,Iowa Wolves
+1610612751,Nets,Barclays Center,,Joe Tsai,Sean Marks,Steve Nash,Long Island Nets
+1610612752,Knicks,Madison Square Garden,19763.0,Cablevision (James Dolan),Leon Rose,Tom Thibodeau,Westchester Knicks
+1610612753,Magic,Amway Center,0.0,Rick DeVos,John Hammond,Steve Clifford,Lakeland Magic
+1610612754,Pacers,Bankers Life Fieldhouse,18345.0,Herb Simon,Kevin Pritchard,Nate Bjorkgren,Fort Wayne Mad Ants
+1610612755,76ers,Wells Fargo Center,,Joshua Harris,Elton Brand,Doc Rivers,Delaware Blue Coats
+1610612756,Suns,Phoenix Suns Arena,,Robert Sarver,James Jones,Monty Williams,Northern Arizona Suns
+1610612757,Trail Blazers,Moda Center,19980.0,Paul Allen,Neil Olshey,Terry Stotts,No Affiliate
+1610612758,Kings,Golden 1 Center,17500.0,Vivek Ranadive,Monte McNair,Luke Walton,Stockton Kings
+1610612759,Spurs,AT&T Center,18694.0,Peter Holt,Brian Wright,Gregg Popovich,Austin Spurs
+1610612760,Thunder,Chesapeake Energy Arena,,Clay Bennett,Sam Presti,Mark Daigneault,Oklahoma City Blue
+1610612761,Raptors,Amalie Arena,,Maple Leaf Sports and Entertainment,Masai Ujiri,Nick Nurse,Raptors 905
+1610612762,Jazz,Vivint Arena,,Ryan Smith,Dennis Lindsey,Quin Snyder,Salt Lake City Stars
+1610612763,Grizzlies,FedExForum,18119.0,Robert Pera,Zach Kleiman,Taylor Jenkins,Memphis Hustle
+1610612764,Wizards,Capital One Arena,20647.0,Ted Leonsis,Tommy Sheppard,Scott Brooks,Capital City Go-Go
+1610612765,Pistons,Little Caesars Arena,,Tom Gores,Ed Stefanski,Dwane Casey,Grand Rapids Drive
+1610612766,Hornets,Spectrum Center,19026.0,Michael Jordan,Mitch Kupchak,James Borrego,Greensboro Swarm
